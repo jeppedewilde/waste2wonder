@@ -1,0 +1,78 @@
+/* algemeen */
+
+body {
+    background-color: #BBE7D2;
+    background-image: url(../images/achtergrond-kort.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header img {
+    max-width: 100%;
+    margin-right: 0em;
+}
+
+h2 {
+    font-family: 'marker felt';
+}
+
+header nav ul li a, h3 {
+    font-family: 'averia serif libre';
+}
+
+p {
+    font-family: 'martel sans light';
+}
+
+body main div, body main section {
+    background-color: #00973271;
+}
+
+img {
+    max-width: 40%;
+    max-height: 10em;
+    padding-left: 0.1em;
+}
+
+/* nav */
+header {
+    display: flex;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    background-color: #FF582E;
+    padding: 0.2em;
+    border-radius: 0.5em;
+    margin-right: 1em;
+}
+
+nav ul li {
+    list-style-type: none;
+    padding-bottom: 0.5em;
+}
+
+
+/* hoe werkt het? */
+body main section {
+    display: flex;
+    margin-bottom: 2em;
+    padding: 0.5em;
+}
+
+body main section div {
+    background-color: transparent;
+}
+
+body main section img {
+    align-self: center;
+}
+
+
+/* footer */
+footer {
+    display: flex;
+    justify-content: center;
+}
