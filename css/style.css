@@ -1,0 +1,204 @@
+/* algemeen */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #EAD7B0;
+    width: 100vw;
+}
+
+h2, h3, a, p {
+    color: #152B1E;
+}
+
+p {
+    line-height: 1.3em;
+}
+
+h2 {
+    font-family: 'marker felt';
+    margin: 0 0 0.6em 0.5em;
+    align-self: baseline;
+    text-decoration: underline #9EBA80;
+}
+
+nav ul li a, h3 {
+    font-family: 'averia serif libre';
+}
+
+p {
+    font-family: 'martel sans light';
+    font-size: 1.2em;
+}
+
+h3 {
+    font-size: 1.3em;
+    background-color: #9EBA80;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5em;
+    padding-top: 8.5em;
+}
+
+body main div, body main section {
+    width: 90vw;
+}
+
+
+
+/* header */
+header {
+    background-color: #9EBA80;
+    position: fixed;
+    width: 100vw;
+}
+
+header img {
+    max-width: 7em;
+    margin: 0.5em 0 0em 0.5em;
+}
+
+header p {
+    font-family: 'marker felt';
+    font-size: 1.4em;
+    margin-left: 5em;
+}
+
+
+
+/* home */
+.upcycle {
+    background-color: transparent;
+}
+
+.upcycle div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.upcycle img {
+    max-width: 44vw;
+}
+
+
+
+/* upcycle */
+body main section {
+    display: flex;
+}
+
+body main section div {
+    margin-bottom: 0;
+}
+
+body main section, body main div {
+    margin-bottom: 1.5em;
+}
+
+body main div p, body main section div p {
+    padding: 0.5em;
+}
+
+body main section img {
+    align-self: center;
+}
+
+body main section img {
+    max-width: 40%;
+    max-height: 10em;
+}
+
+.rood div h3 {
+    background-color: #A74C33;
+}
+
+#groen {
+    background-color: #9EBA80;
+}
+
+/* .stappenplan body main section:nth-child(even) {
+    flex-direction: row-reverse;
+} */
+
+
+
+/* producten */
+main section {
+    width: 90vw;
+    overflow: scroll;
+    gap: 2em;
+}
+
+.fotogallerij {
+    background-color: transparent;
+    border: none;
+}
+
+.fotogallerij img {
+    max-width: 50%;
+}
+
+.fotogallerij h3 {
+    background-image: url(../images/denim-verzameling.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    color: white;
+    font-size: x-large;
+    text-align: center;
+    padding: 0.5em;
+    min-width: 30vw;
+}
+
+
+
+/* footer */
+footer {
+    background-color: #9EBA80;
+    position: fixed;
+    bottom: 0;
+    min-width: 100%;
+    margin-top: 10em;
+}
+
+
+
+/* nav */
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    gap: 1em;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+nav ul li a img {
+    max-height: 8vh;
+    margin-top: 0.5em;
+}
+
+nav ul li a img:nth-of-type(1) {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+nav ul li a figcaption {
+    text-align: center;
+}
